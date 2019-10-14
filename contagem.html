@@ -1,0 +1,21 @@
+<script>
+
+//declaração de variáveis
+var a = [];
+var nval = parseInt(prompt("Digite quantos valores deseja declarar: "));
+var cont = 0;
+
+//leitor de a[]
+for(i = 0; i < nval; i++) {
+	a[i] = parseInt(prompt("Digite o " + (i+1) + "º valor:"));
+}
+
+for (k = 0; k < nval; k++) {
+	if (a[k] >= 50 && a[k] <= 100) {
+		cont++;
+	}
+}
+
+document.write("Valores acima de 50: " + cont);
+
+</script>

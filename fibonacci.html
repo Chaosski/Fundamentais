@@ -1,0 +1,19 @@
+<script>
+
+var v1 = 1;
+var aux = 0;
+var result = 0;
+var ctrl = prompt("Digite quantos valores deseja: ");
+
+
+for (i = 1; i < ctrl; i++) {
+	aux = result;
+	result = v1 + result;
+	v1 = aux;
+	if (i == 1) {
+		document.write("0 " + result + " ");
+	} else {
+		document.write(result + " ");
+	}
+}
+</script>

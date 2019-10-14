@@ -1,0 +1,22 @@
+<script>
+
+var start = parseInt(prompt("Digite o valor que deseja converter: "));
+var i = 0;
+var vet = [];
+
+while (start > 0) {
+	vet[i] = start%2;
+	i++;
+	start = Math.floor(start/2);
+}
+
+for (k = (vet.length - 1); k >= 0; k--) {
+	document.write(vet[k]);
+}
+
+
+
+//var txt = vet.toString();
+//document.write(txt);
+
+</script>

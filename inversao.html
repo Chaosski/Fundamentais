@@ -1,0 +1,13 @@
+<script>
+
+var start = parseInt(prompt("Digite o valor que deseja inverter: "));
+var new1 = 0;
+
+while (start > 0) {
+	var ctrl = start%10
+	new1 = (new1*10) + ctrl;
+	start = Math.floor(start/10);
+}
+document.write(new1);
+
+</script>

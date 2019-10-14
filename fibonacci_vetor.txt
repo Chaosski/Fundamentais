@@ -1,0 +1,11 @@
+<script>
+
+var a = [0,1];
+var ctrl = prompt("Digite quantos valores deseja: ");
+
+for (i = 0; i < ctrl; i++) {
+	a[i+2] = a[i] + a[i+1];
+}
+	document.write(a);
+
+</script>
