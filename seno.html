@@ -1,0 +1,34 @@
+<script>
+
+function fatorial(val) {
+
+	var k = 1;
+	var result = 1;
+
+		while (k <= val) {
+			result = result * k;
+			k++;
+		}
+	return result
+}
+
+var x = parseInt(prompt("Digite o valor de X:"));
+var nterm = parseInt(prompt("Digite quantos termos deseja: "));
+var ctrl = 0;
+var funcctrl = -1;
+var seno = 0;
+var sinalctrl = -1;
+
+while (ctrl < nterm) {
+
+	sinalctrl = sinalctrl * -1;
+	funcctrl = funcctrl + 2;
+	var rest = fatorial(funcctrl);
+
+	seno = seno + (sinalctrl * (x ** funcctrl)/rest);
+	ctrl++;
+}
+
+document.write(seno);
+
+</script>
