@@ -1,5 +1,3 @@
-<script>
-
 var start = parseInt(prompt("Digite o valor que deseja converter: "));
 var i = 0;
 var vet = [];
@@ -13,10 +11,3 @@ while (start > 0) {
 for (k = (vet.length - 1); k >= 0; k--) {
 	document.write(vet[k]);
 }
-
-
-
-//var txt = vet.toString();
-//document.write(txt);
-
-</script>
