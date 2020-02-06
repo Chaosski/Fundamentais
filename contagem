@@ -1,5 +1,3 @@
-<script>
-
 //declaração de variáveis
 var a = [];
 var nval = parseInt(prompt("Digite quantos valores deseja declarar: "));
@@ -17,5 +15,3 @@ for (k = 0; k < nval; k++) {
 }
 
 document.write("Valores acima de 50: " + cont);
-
-</script>
